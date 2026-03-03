@@ -51,10 +51,10 @@ ai-movie-insighter/
 
 ---
 
-## 🌐 Deployment
+## 🌐 Project link 
 
-Frontend:
-Backend: 
+Frontend:https://movie-app-plum-eta-73.vercel.app/
+Backend:https://movie-app-4jqo.onrender.co
 
 ---
 
