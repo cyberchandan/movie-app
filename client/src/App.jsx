@@ -14,7 +14,7 @@ function App() {
       setData(null);
 // upadted url
       const res = await axios.get(
-        `${import.meta.env.VITE_API_URL}/api/movie/${imdbId}`
+        `${import.meta.env.VITE_API_URL}api/movie/${imdbId}`
       );
 
       setData(res.data);
