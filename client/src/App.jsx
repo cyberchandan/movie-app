@@ -14,7 +14,7 @@ function App() {
       setData(null);
 
       const res = await axios.get(
-        `http://localhost:5000/api/movie/${imdbId}`
+        `https://movie-app-4jqo.onrender.com/api/movie/${id}`
       );
 
       setData(res.data);
