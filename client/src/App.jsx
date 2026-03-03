@@ -14,7 +14,7 @@ function App() {
       setData(null);
 
       const res = await axios.get(
-        `https://movie-app-4jqo.onrender.com/api/movie/${id}`
+        `${import.meta.env.VITE_API_URL}/api/movie/${imdbId}`
       );
 
       setData(res.data);
